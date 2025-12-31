@@ -16,3 +16,5 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          organization: vairaaj0612
+          projectkey: vairaaj0612_simple
